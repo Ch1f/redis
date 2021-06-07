@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
 	"github.com/Ch1f/redis"
 	"github.com/Ch1f/redis/internal"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
 )
 
 type OpenTelemetryHook struct{}
