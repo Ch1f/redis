@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-redis/redis/v8/internal"
-	"github.com/go-redis/redis/v8/internal/pool"
+	"github.com/Ch1f/redis/internal"
+	"github.com/Ch1f/redis/internal/pool"
 )
 
 //------------------------------------------------------------------------------

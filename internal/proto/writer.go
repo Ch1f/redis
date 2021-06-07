@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-redis/redis/v8/internal/util"
+	"github.com/Ch1f/redis/internal/util"
 )
 
 type writer interface {
