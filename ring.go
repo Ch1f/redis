@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cespare/xxhash/v2"
+	"github.com/Ch1f/xxhash"
 	"github.com/dgryski/go-rendezvous"
 	"golang.org/x/exp/rand"
 
